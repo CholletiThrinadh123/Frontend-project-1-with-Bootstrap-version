@@ -1,0 +1,172 @@
+
+.eventdate{
+   background-color: grey;
+    
+}
+
+img{
+    width: 250px;
+    height:100px;
+}
+
+.hcontainer{
+
+   background-color:rgb(159, 131, 131);
+}
+
+ 
+a.nav-link{
+    color:black;
+}
+
+a.nav-link:hover{
+    display:inline;
+    color:orangered;
+    border-bottom:2px solid orangered;
+    font-weight:bold;
+    
+}
+
+a.active{
+   color:orangered;
+   font-weight:bold;
+   border-bottom:2px solid orangered;
+}
+
+.section1{
+    background-image: url(../images/Conference.jpg );
+  
+  
+   
+}
+
+.section1-h1{
+  color:orangered;
+  
+
+}
+
+
+
+.sectionhead{
+    color:orangered;
+   
+}
+
+
+@media screen and (max-width:900px){
+    .section3-div2{
+    display:grid;
+    justify-content: center;
+    align-items:center;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: auto auto;
+    padding:30px;
+    text-wrap: wrap;
+    
+}
+
+}
+
+.greybg{
+    background-color: rgb(228, 223, 223);
+}
+
+.sec5sub{
+      color:orangered;
+ 
+
+}
+
+.mylist{
+    list-style-type: none;
+    position:relative;
+    color:black;
+    counter-reset: step-counter;/*step1:set counter to 0 */
+
+}
+
+.mylist li{
+    counter-increment: step-counter;
+}
+
+.mylist li::before{
+    position:absolute;
+    content:counter(step-counter);
+    left:-1em;
+    color:orangered;
+    border:1px solid orangered;
+    border-radius:100%;
+    
+}
+
+
+
+
+
+
+
+
+
+/*Register page styles*/
+.register-main{
+    height:800px;
+    
+}
+
+.reg-form{
+   padding-top:30px;
+   text-align: center;
+    
+   
+}
+
+.h2{
+    text-align: center;
+    padding:40px;
+}
+
+.alert{
+    text-align: center;
+    padding:20px;
+    font-weight: 600;
+    font-size:1.1em;
+  
+}
+
+.reg-form label{
+   display:block;
+}
+
+.button{
+    width:200px;
+    background-color: green;
+    color:white;
+    border-radius: 10px;
+    height:30px;
+}
+
+.star{
+    color:red;
+}
+
+.input{
+    width:300px;
+    height:30px;
+   
+
+}
+
+
+/* Login page styles*/
+.align-center{
+    text-align: center;
+    padding-top:50px;
+}
+
+.login{
+    padding-top: 50px;
+    text-align: center;
+    height:50px;
+
+}
